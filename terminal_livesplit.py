@@ -1,8 +1,8 @@
 import curses
 
-from binding import load_bindings, bind_controls_flow, Bindings
-from race import RaceInfo, run_race_tui
-from fileExport import build_summary_lines, save_results_txt
+from livesplit.binding import load_bindings, bind_controls_flow, Bindings
+from livesplit.race import RaceInfo, run_race_tui
+from livesplit.fileExport import build_summary_lines, save_results_txt
 
 
 def clear_terminal() -> None:

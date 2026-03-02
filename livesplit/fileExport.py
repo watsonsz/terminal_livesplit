@@ -3,7 +3,7 @@ import re
 import time
 from typing import List
 
-from race import RaceInfo, fmt_time
+from .race import RaceInfo, fmt_time
 
 
 def safe_filename(text: str) -> str:

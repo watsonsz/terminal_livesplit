@@ -4,7 +4,7 @@ from typing import Optional, List, Tuple
 
 import curses
 
-from binding import Bindings, InputBinding, init_joystick_optional
+from .binding import Bindings, InputBinding, init_joystick_optional
 
 try:
     import pygame
